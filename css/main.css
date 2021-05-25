@@ -1,0 +1,351 @@
+@font-face {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/fraunces-v10-latin-regular.woff2") format("woff2"),
+		url("../fonts/fraunces-v10-latin-regular.woff") format("woff");
+}
+@font-face {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../fonts/fraunces-v10-latin-900.woff2") format("woff2"),
+		url("../fonts/fraunces-v10-latin-900.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/barlow-v5-latin-500.woff2") format("woff2"),
+		url("../fonts/barlow-v5-latin-500.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/barlow-v5-latin-regular.woff2") format("woff2"),
+		url("../fonts/barlow-v5-latin-regular.woff") format("woff");
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* =====header===== */
+#main-page #pagetitle h1 {
+	font-size: 0;
+	width: 1px;
+	height: 1px;
+	display: inline-block;
+	overflow: hidden;
+	position: absolute !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.site-header-wrapper {
+	width: 1280px;
+	height: 50px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	list-style: none;
+
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.site-header-wrapper-logo {
+	font-family: Fraunces 9pt, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 25px;
+	display: flex;
+	padding: 0;
+}
+
+/* header image */
+.header-image {
+	width: 235px;
+	height: 25px;
+}
+
+/* header links */
+.site-items-links {
+	margin-left: auto;
+}
+.links-wrapper {
+	height: 15px;
+	display: flex;
+	list-style: none;
+}
+.header-links {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-decoration: none;
+	padding-left: 30px;
+
+	color: #83888f;
+}
+
+/* =====main===== */
+
+/* main image */
+.site-main-items-wrapper {
+	width: 1280px;
+	height: 600px;
+	background-image: url(../images/main-coffee-image.svg);
+	background-repeat: no-repeat;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.site-big-text {
+	font-family: Fraunces 9pt, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 72px;
+	display: block;
+
+	margin-left: 75px;
+	width: 493px;
+	height: 145px;
+	color: white;
+}
+.main-text {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	width: 445px;
+	height: 78px;
+	display: block;
+	margin-left: 75px;
+
+	color: white;
+}
+.main-link {
+	font-family: Fraunces 9pt, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	width: 217px;
+	height: 56px;
+	display: block;
+	text-align: center;
+	margin-left: 75px;
+	margin-top: 55px;
+	padding: 15px 31px;
+	text-decoration: none;
+	color: #fefcf7;
+	background-color: #0e8784;
+	border-radius: 10px;
+}
+/* site second main */
+.site-second-main-item {
+	width: 1111px;
+	height: 525px;
+	display: flex;
+	margin: auto;
+	list-style: none;
+	align-items: center;
+}
+.site-espresso {
+	width: 255px;
+	height: 134px;
+	text-align: center;
+}
+.site-espresso-text {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.site-planalto {
+	width: 255px;
+	height: 134px;
+	text-align: center;
+}
+.site-planalto-text {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.site-piccollo {
+	width: 255px;
+	height: 134px;
+	text-align: center;
+}
+.site-piccollo-text {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.site-danche {
+	width: 255px;
+	height: 134px;
+	text-align: center;
+}
+.site-danche-text {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.site-coffee4 {
+	padding: 15px 0px;
+	margin-bottom: 15px;
+}
+.site-third-main-wrapper {
+	width: 1280px;
+
+	margin: auto;
+	align-items: center;
+}
+.site-main-third-main-wrapper-text {
+	width: 1280px;
+	height: 577px;
+
+	padding: 0;
+	background-color: #2c343e;
+}
+.site-main-third-wrapper {
+	font-family: Fraunces 9pt;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	width: 540px;
+	height: 160px;
+	margin: auto;
+	list-style: none;
+	text-align: center;
+
+	color: white;
+}
+.site-main-third-wrapper-text-wrapper {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+}
+.site-third-main-item {
+	display: flex;
+	padding-left: 65px;
+	position: absolute;
+	list-style: none;
+}
+.site-third-main-item-text-item {
+	font-family: Fraunces 9pt;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 48px;
+	width: 350px;
+	height: 382px;
+	margin: 0px 17px;
+	margin-top: 100px;
+	padding-top: 50px;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #0e8784;
+	background-repeat: no-repeat;
+}
+
+.site-third-main-item-text {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	width: 255px;
+	height: 78px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* footer */
+
+.site-footer-section {
+	margin-top: 200px;
+}
+.site-footer-wrapper {
+	width: 1280px;
+	height: 120px;
+	position: relative;
+	display: flex;
+
+	margin: auto;
+	align-items: center;
+	list-style: none;
+	background-color: #2c343e;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.site-footer-wrapper-logo {
+	font-family: Fraunces 9pt, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 25px;
+	display: flex;
+	margin-left: 50px;
+	padding: 0;
+}
+
+/* header links */
+.footer-logo {
+	color: white;
+}
+.site-footer-items-links {
+	text-align: center;
+	margin-left: 93px;
+}
+.links-wrapper {
+	height: 15px;
+	display: flex;
+	list-style: none;
+}
+.footer-links {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-decoration: none;
+	padding-left: 30px;
+	color: #83888f;
+}
+.site-items-second-links {
+	display: flex;
+	margin-left: auto;
+	margin-right: 50px;
+}
+.site-messengers {
+	padding-right: 25px;
+}
